@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>RS Dobri-DD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Peddana&amp;subset=telugu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <body>
+    <div class="hiddenNav">
+        <ul>
+            <li class="homeButton selected">
+                <a href="#">Начало</a>
+            </li>
+            <li>
+                <a href="us.html">За Нас</a>
+            </li>
+            <li>
+                <a href="rent.html">Коли под наем</a>
+            </li>
+            <li>
+                <a href="services.html">Контакти</a>
+            </li>
+
+        </ul>
+    </div> <!--hiddenNav-->
+        <div id="site">
+            <header class="backgroundHeader">
+                <div class="csw">
+                    <div class="burgerMenu" onclick="hideNav()"><i class="fas fa-bars"></i></div>
+                    <div class="mainMenu">
+                        <ul>
+                            <li class="homeButton">
+                                <a href="index.html">Начало</a>
+                            </li>
+                            <li>
+                                <a href="us.html">За Нас</a>
+                            </li>
+                            <li class="selected">
+                                <a href="rent.html">Коли под наем</a>
+                            </li>
+                            <li>
+                                <a href="services.html">Контакти</a>
+                            </li>
+
+                        </ul>
+                    </div><!-- MenuDiv -->
+                    <div class="rsLogo">
+                        <a href="#" class="">
+                            <h1>Autocenter DD</h1>
+                        </a>
+                    </div>
+                </div> <!-- csw -->
+            </header> <!--backgroundHeader-->
+            <div class="space"></div>
+            <div class="sliderPages">
+                <div class="slider">
+                    <div class="mainUsTitle"><h2>Коли под наем</h2></div>
+                </div>
+            </div> <!--sliderPages-->
+            <div class="csw">
+                <main>
+                    <div class="rentForm" id="goToRent">
+                        <form>
+                            <div class="firstContainer">
+                                <span>Избери Автомобил</span>
+                                <select name="type" class="selectBrand" title="123">
+                                    <option value="Reno">Reno</option>
+                                    <option value="BMW">BMW</option>
+                                    <option value="Ford">Ford</option>
+                                    <option value="Citron">Citroen</option>
+                                </select>
+                                <span> Име и Фамилия</span>
+                                <input type="text" name="name" title="123">
+                                <label>
+                                    <span>Email</span>
+                                    <input type="email" name="name" title="123">
+                                </label>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="secondContainer">
+                                <span>Дата и час на вземане</span>
+                                <label>
+                                    <input type="date">
+                                </label>
+                                <label>
+                                    <input type="time">
+                                </label>
+                                <span>Дата и час на връщане</span>
+                                <label>
+                                    <input type="date">
+                                </label>
+                                <label>
+                                    <input type="time">
+                                </label>
+                                <div class="clearfix"></div>
+                            </div>
+                            <!--secondContainer-->
+                            <div class="thirdContainer">
+                                <span>Място на вземане</span>
+                                <select name="type" class="selectPlace" title="123">
+                                    <option value="0"></option>
+                                    <option value="zld">Златоград</option>
+                                    <option value="pld">Пловдив</option>
+                                    <option value="sf">София</option>
+                                </select>
+                                <span>Място на връщане</span>
+                                <select name="type" class="selectPlace" title="123">
+                                    <option value="0"></option>
+                                    <option value="zldReturn">Златоград</option>
+                                    <option value="pldReturn">Пловдив</option>
+                                    <option value="sfReturn">София</option>
+                                </select>
+                                <span>Телефон</span>
+                                <label>
+                                    <input type="tel" name="phone" title="123">
+                                </label>
+                            </div><!--thirdContainer-->
+                            <div class="clearfix"></div>
+                            <div class="textAreaContainer">
+                                <span>Забележки:</span>
+                                <label>
+                                    <textarea name="textUs" cols="90%" rows="10"></textarea>
+                                </label>
+                            </div>
+                            <div class="buttons">
+                                <button type="submit" name="Изпрати" value="Изпрати">Изпрати</button>
+                                <button type="reset" name="Изпрати" value="Изчисти">Изчисти</button>
+                            </div>
+                            <div class="clearfix"></div>
+                        </form>
+                    </div> <!--rentForm-->
+                    <div class="dealCardsContainer">
+                        <div class="dealCard">
+                            <a href="#" class="dealCardPic" style="background-image: url('https://fordcms.blob.core.windows.net/media/Bulgaria/_Profiles/979cb86e/f68eec36/car-image-8.png?v=636682051920000000')"></a>
+                            <div class="dealCardTextContainer">
+                                <a href="#" class="dealCardTitle">Ford Focus</a>
+                                <p class="dealCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam beatae blanditiis delectus est eveniet id omnis, perferendis perspiciatis porro, sint, veritatis voluptatibus. A animi, dolores qui quibusdam quos veniam veritatis?</p>
+                                <a href="#goToRent" class="rentNow">Rent now</a>
+                            </div><!--dealCardTextContainer-->
+                        </div> <!--dealCard-->
+                        <div class="dealCard">
+                            <a href="#" class="dealCardPic" style="background-image: url('img/fordfocus2001.jpg')"></a>
+                            <div class="dealCardTextContainer">
+                                <a href="#" class="dealCardTitle">Ford focus</a>
+                                <p class="dealCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto autem consequuntur, distinctio eius illum magnam necessitatibus quos rerum similique sunt suscipit voluptas. Asperiores cumque fuga in itaque, nulla quisquam voluptatem.</p>
+                                <a href="#goToRent" class="rentNow">Rent now</a>
+                            </div><!--dealCardTextContainer-->
+                        </div> <!--dealCard-->
+                        <div class="dealCard">
+                            <a href="#" class="dealCardPic" style="background-image: url('img/xsara.jpg')"></a>
+                            <div class="dealCardTextContainer">
+                                <a href="#" class="dealCardTitle">Citroen Xsara</a>
+                                <p class="dealCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur earum error exercitationem facere fugiat harum illum iste itaque obcaecati, quaerat quos repudiandae. Eligendi enim, nisi! Aliquid ducimus fuga iure?</p>
+                                <a href="#goToRent" class="rentNow">Rent now</a>
+                            </div> <!--dealCardTextContainer-->
+                        </div> <!--dealCard-->
+                        <div class="clearfix"></div>
+                        <div class="dealCard">
+                            <a href="#" class="dealCardPic" style="background-image: url('img/renault2001.jpg')"></a>
+                            <div class="dealCardTextContainer">
+                                <a href="#" class="dealCardTitle">Reno clio</a>
+                                <p class="dealCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi consequuntur cumque cupiditate dicta, dolor eaque eius error ipsum laudantium maxime mollitia nam natus nesciunt nostrum pariatur, qui quis rerum!</p>
+                                <a href="#goToRent" class="rentNow">Rent now</a>
+                            </div>
+                        </div> <!--dealCard-->
+                        <div class="dealCard">
+                            <a href="#" class="dealCardPic" style="background-image: url('img/fordGalaxy.jpg')"></a>
+                            <div class="dealCardTextContainer">
+                                <a href="#" class="dealCardTitle">Ford galaxy</a>
+                                <p class="dealCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, cumque eveniet ex iste labore maiores nostrum quibusdam quod? Deleniti distinctio eligendi enim eos error numquam obcaecati, possimus quaerat repellat sed!</p>
+                                <a href="#goToRent" class="rentNow">Rent now</a>
+                            </div> <!--dealCardTextContainer-->
+                        </div> <!--dealCard-->
+                        <div class="dealCard">
+                            <a href="#" class="dealCardPic" style="background-image: url('img/peugeot307.jpg')"></a>
+                            <div class="dealCardTextContainer">
+                                <a href="#" class="dealCardTitle">Peugeot 307</a>
+                                <p class="dealCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ea fuga iure laborum minima non perferendis porro quia. Distinctio dolore ducimus esse hic laboriosam magnam modi necessitatibus praesentium qui repellat?</p>
+                                <a href="#goToRent" class="rentNow">Rent now</a>
+                            </div>
+                        </div> <!--dealCard-->
+                        <div class="clearfix"></div>
+                    </div> <!--dealCardsContainer-->
+                </main>
+            </div> <!-- csw -->
+            <div class="clearfix"></div>
+            <footer class="mainFooter">
+                <div class="csw">
+                    <div class="menuFooter">
+                        <ul>
+                            <li>
+                                <a href="index.html">Начало</a>
+                            </li>
+                            <li>
+                                <a href="us.html">За Нас</a>
+                            </li>
+                            <li>
+                                <a href="rent.html">Коли под наем</a>
+                            </li>
+                            <li>
+                                <a href="services.html">Контакти</a>
+                            </li>
+                        </ul>
+                    </div> <!--menuFooter-->
+                    <div class="clearfix"></div>
+                    <div class="infoFooter">
+                        <span class="headTextInfo"><i class="fas fa-info-circle"></i> За контакти</span>
+                        <div class="footerContact">
+                            <span class="locationText"><a href="#"><i class="fas fa-map-marker-alt"></i> Dobri DD Location</a></span>
+                            <span class="workHours"><i class="fas fa-clock"></i> <strong>Работно време</strong></span>
+                            <span class="text">
+                                    <small><strong>Понеделник - Петък:</strong>
+                                        <p>от 09:00ч до 19:00ч</p>
+                                    </small>
+                                    <small> <strong>Събота и Неделя:</strong>
+                                        <p>Почивни</p>
+                                    </small>
+                                </span>
+                            <span class="contactEmail"><a href="#"><i class="fas fa-envelope"></i> vdobrev96@gmail.com</a></span>
+                            <span> <a href="#"><i class="fas fa-phone-square"></i>+359 898 421 424</a> </span>
+                        </div> <!--footerContact-->
+                    </div> <!--infoFooter-->
+                    <div class="spaceFooter"></div> <!--spaceFooter-->
+                    <div class="fbPage">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDobri-DD-%D0%9A%D0%BE%D0%BB%D0%B8-%D0%9F%D0%BE%D0%B4-%D0%9D%D0%B0%D0%B5%D0%BC-%D0%B8-%D0%90%D0%B2%D1%82%D0%BE-%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D0%B7-2136770249975385%2F&tabs&width=400&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" ></iframe>
+                    </div> <!--fbPage-->
+                    <div class="clearfix"></div>
+                </div> <!--csw-->
+            </footer> <!--mainFooter-->
+        </div> <!-- site -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
